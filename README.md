@@ -34,9 +34,22 @@ The microservice provides the following functionalities:
 - **Docker**
 - **Flask**
 - **MLflow**
+- **Python 3.11+**
 
-> This microservice was developed as part of a larger system.  
-> Due to data protection, datasets and connected services are not included.
+### Reproducibility Notice
+
+This microservice is part of a larger, interconnected system and was developed for a real-world application in a multi-service architecture.
+
+Due to data protection and infrastructure constraints:
+- Datasets are not included
+- Trained models in MLflow are not publicly accessible
+- Other required microservices – such as services for data crawling, annotation initialization, and dataset persistence - are not included in this repository
+
+You can still review:
+- The architecture and design of this microservice
+- The training pipeline and annotation/dataset creation pipeline
+- The evaluation results
+- The Docker setup and local configuration logic
 
 ## Requirements
 
